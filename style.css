@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #311a03;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+header > h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+header > p{
+    padding-bottom: 30px;
+}
+
+header a, footer a{
+    text-decoration: none;
+    color: orange;
+}
+
+header a:hover, footer a:hover{
+    color: rgb(252, 193, 85);
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5%;
+    line-height: 2em;
+    font-size: 20px;
+}
+
+section p{
+    padding-left: 10px;
+}
+
+section.normal{
+    background-color: #ffeaaa;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > pre{
+    white-space: pre-line;
+}
+
+.imagem p{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(128, 128, 128, 0));
+    width: 500px;
+    padding-bottom: 30px;
+}
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+}
+
+footer{
+    background-color: rgb(87, 87, 87);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
